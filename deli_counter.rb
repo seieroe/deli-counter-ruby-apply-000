@@ -19,6 +19,7 @@ $ticker_number = 1
 
 def take_a_number(katz_deli)
   new_ticker_number = $ticker_number + 1
+  $ticker_number = new_ticker_number
   katz_deli << new_ticker_number 
   
   puts "Welcome, you grabbed #{ticker_number}. You are number #{katz_deli.length} in line."
